@@ -1,6 +1,60 @@
-# GitBook Boilerplate
+# Práctica 3: Estudiar las Rutas en ExpressJS
 
-# Installation
+
+
+## Requisitos
+
+Estudie las rutas en ExpressJS siguiendo estos apuntes:
+
+* Basic Routing
+* Routing Guide
+* Using Middleware
+* Router API Documentation
+
+Elabore a partir de ellas un libro GitBook con sus notas e ilustre con ejemplos el uso de las distintas secciones.
+* El repo debe tener un directorio docs/ con los MarkDown del libro y un directorio src/ con los códigos fuentes de los ejemplos.
+* Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
+* Puede incorporar los apuntes elaborados en las prácticas anteriores a este
+* En el directorio src/ deberá de disponer de un gulpfile.js con tareas para la ejecución de los códigos fuentes de ejemplo
+
+## Autores
+
+José Luis Doblado González  
+* [Github](https://github.com/alu0100767001)
+* [Pagina personal](https://alu0100767001.github.io/dsi-joseluis/)
+
+
+Edna Liliana Galiano Camacho  
+* [Github](https://github.com/ednagc)
+* [Pagina personal](https://ednagc.github.io/edna-galiano/)
+
+Kevin Estévez Expósito  
+* [Github](https://github.com/alu0100821390)
+* [Pagina personal](http://alu0100821390.github.io)
+
+
+## Libro 
+
+[Despliege del libro en gh-pages]()
+
+[Despliege del libro en Gitbook]()
+
+[Despliegue del libro en Iaas]()
+
+
+
+## Enlace descripción Práctica
+
+[Práctica 3](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicalearningrouting.html)
+
+## Asignatura DSI ULL 
+
+[Desarrollo de Sistemas Informáticos](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
+
+
+## GitBook Boilerplate
+
+### Installation
 
 ```shell
 cd ~/code
@@ -25,3 +79,4 @@ npm run deploy
 # npm run deploy-gitbook && npm run deploy-wiki
 ```
 __Important__: Wiki must be created on Github
+
