@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-boilerplate",
+  "name": "estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2",
   "version": "0.0.1",
-  "description": "GitBook Boilerplate",
+  "description": "Práctica: Estudiar las Rutas en ExpressJS",
   "main": "index.js",
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
@@ -15,20 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enten/gitbook-boilerplate.git",
-    "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2.git"
   },
   "keywords": [
-    "gitbook",
-    "boilerplate",
-    "starter"
+    "nodejs",
+    "expressjs",
+    "middleware"
   ],
-  "author": "Steven Enten <steven@enten.fr>",
+  "author": "Edna Liliana Galiano Camacho-José Luis Doblado González-Kevin Estévez Expósito",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/enten/gitbook-boilerplate/issues"
+    "url": "https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2/issues"
   },
-  "homepage": "https://github.com/enten/gitbook-boilerplate#readme",
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2#readme",
   "devDependencies": {
     "async": "^1.4.0",
     "fs-extra": "^0.22.1",
