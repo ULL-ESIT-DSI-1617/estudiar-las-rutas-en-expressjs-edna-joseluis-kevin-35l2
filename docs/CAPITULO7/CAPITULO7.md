@@ -477,7 +477,7 @@ Este ejemplo muestra una subpila de middleware que maneja solicitudes GET a la v
     })
 ~~~
 
-## Middleware de nivel de enrutador
+### Middleware de nivel de enrutador
 
 El middleware de nivel de direccionador funciona de la misma manera que el middleware de nivel de aplicación, excepto que está enlazado a una instancia de *express.Router()*.
 
@@ -558,16 +558,16 @@ El argumento *root* especifica el directorio raíz desde el que se realiza el se
 
 El objeto *options* opcional puede tener las siguientes propiedades:
 
-| Propiedad | Descripción | Tipo | Valor predeterminado |
-| --------- | ----------- | ---- | -------------------- |
-| *dotfiles* | Opción para el servicio de dotfiles. Los valores posibles son “allow”, “deny” e “ignore”. | Serie | “ignore” |
-| *etag* | Habilitar o inhabilitar la generación de etag. | Booleano | *true* |
-| *extensions* | Establece las reservas de extensiones de archivos. | Matriz | [] |
-| *index* | Envía el archivo de índices de directorios. Establézcalo en *false* para inhabilitar la indexación de directorios. | Mixto | “index.html” |
+| Propiedad      | Descripción                                                                      | Tipo     | Valor predeterminado |
+| -------------- | -------------------------------------------------------------------------------- | -------- | -------------------- |
+| *dotfiles*     | Opción para el servicio de dotfiles. Los valores posibles son “allow”, “deny” e “ignore”.   | Serie | “ignore” |
+| *etag*         | Habilitar o inhabilitar la generación de etag.                                   | Booleano | *true*               |
+| *extensions*   | Establece las reservas de extensiones de archivos.                               | Matriz   | []                   |
+| *index*        | Envía el archivo de índices de directorios. Establézcalo en *false* para inhabilitar la indexación de directorios. | Mixto | “index.html” |
 | *lastModified* | Establezca la cabecera *Last-Modified* en la última fecha de modificación del archivo en el sistema operativo. Los valores posibles son *true* o *false*. | Booleano | *true* |
-| *maxAge* | Establezca la propiedad max-age de la cabecera Cache-Control en milisegundos o una serie en [formato ms](https://www.npmjs.org/package/ms). | Número | 0 |
-| *redirect* | Redireccionar a la “/” final cuando el nombre de vía de acceso es un directorio. | Booleano | *true* |
-| setHeaders | Función para establecer las cabeceras HTTP que se sirven con el archivo. | Función |  |  |
+| *maxAge*       | Establezca la propiedad max-age de la cabecera Cache-Control en milisegundos o una serie en [formato ms](https://www.npmjs.org/package/ms). | Número | 0 |
+| *redirect*     | Redireccionar a la “/” final cuando el nombre de vía de acceso es un directorio. | Booleano | *true*               |
+| setHeaders     | Función para establecer las cabeceras HTTP que se sirven con el archivo.         | Función  |
 
 A continuación, se muestra un ejemplo de uso de la función de middleware *express.static* con un objeto de opciones elaboradas:
 
