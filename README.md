@@ -6,10 +6,10 @@
 
 Estudie las rutas en ExpressJS siguiendo estos apuntes:
 
-* Basic Routing
-* Routing Guide
-* Using Middleware
-* Router API Documentation
+* [Basic Routing](http://expressjs.com/en/starter/basic-routing.html)
+* [Routing Guide](http://expressjs.com/en/guide/routing.html)
+* [Using Middleware](http://expressjs.com/en/guide/using-middleware.html)
+* [Router API Documentation](http://expressjs.com/en/4x/api.html#router)
 
 Elabore a partir de ellas un libro GitBook con sus notas e ilustre con ejemplos el uso de las distintas secciones.
 * El repo debe tener un directorio docs/ con los MarkDown del libro y un directorio src/ con los códigos fuentes de los ejemplos.
