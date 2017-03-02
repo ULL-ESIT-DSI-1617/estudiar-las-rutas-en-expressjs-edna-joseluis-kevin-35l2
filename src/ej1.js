@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World');
 });
 
 app.post('/', function (req, res) {
@@ -10,13 +10,13 @@ app.post('/', function (req, res) {
 });
 
 
-app.put('/', function (req, res) {
-  res.send('Got a PUT request at /user');
+app.put('/CAPITULO1', function (req, res) {
+  res.send('Got a PUT request at /docs/CAPITULO1');
 });
 
 
-app.delete('/', function (req, res) {
-  res.send('Got a DELETE request at /user');
+app.delete('/CAPITULO1', function (req, res) {
+  res.send('Got a DELETE request at /docs/CAPITULO2');
 });
 
 app.listen(8080, function() {
