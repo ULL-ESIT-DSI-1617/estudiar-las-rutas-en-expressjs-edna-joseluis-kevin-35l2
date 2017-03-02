@@ -10,12 +10,12 @@ app.post('/', function (req, res) {
 });
 
 
-app.put('/user', function (req, res) {
+app.put('/', function (req, res) {
   res.send('Got a PUT request at /user');
 });
 
 
-app.delete('/user', function (req, res) {
+app.delete('/', function (req, res) {
   res.send('Got a DELETE request at /user');
 });
 
