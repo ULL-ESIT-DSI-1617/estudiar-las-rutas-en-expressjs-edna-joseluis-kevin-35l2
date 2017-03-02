@@ -11,7 +11,7 @@ gulp.task('ej-1', function() {
 
 // Tarea ej-2 -------------------------------------------------------
 
-gulp.task('ej-1', function() {
+gulp.task('ej-2', function() {
   return gulp.src('').pipe(shell(['./src/ej2']));
 });
 
@@ -27,4 +27,11 @@ gulp.task('ej-3', function() {
 
 gulp.task('ej-4', function() {
   return gulp.src('').pipe(shell(['./src/ej4']));
+});
+
+
+// Tarea ej-5 -------------------------------------------------------
+
+gulp.task('ej-5', function() {
+  return gulp.src('').pipe(shell(['./src/ej5']));
 });
