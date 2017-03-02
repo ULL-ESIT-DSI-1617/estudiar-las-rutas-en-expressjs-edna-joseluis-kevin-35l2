@@ -3,6 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   res.send('Hello World');
+  res.download('../docs/CAPITULO1/CAPITULO1.md');
 });
 
 app.post('/', function (req, res) {
