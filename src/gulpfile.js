@@ -35,3 +35,10 @@ gulp.task('ej-4', function() {
 gulp.task('ej-5', function() {
   return gulp.src('').pipe(shell(['./src/ej5']));
 });
+
+
+// Tarea ej-6 -------------------------------------------------------
+
+gulp.task('ej-6', function() {
+  return gulp.src('').pipe(shell(['./src/ej6']));
+});
