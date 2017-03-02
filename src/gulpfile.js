@@ -15,3 +15,10 @@ gulp.task('ej-1', function() {
 gulp.task('ej-1', function() {
   return gulp.src('').pipe(shell(['./src/ej2']));
 });
+
+// Tarea ej-2 -------------------------------------------------------
+
+
+gulp.task('ej-3', function() {
+  return gulp.src('').pipe(shell(['./src/ej3']));
+});
