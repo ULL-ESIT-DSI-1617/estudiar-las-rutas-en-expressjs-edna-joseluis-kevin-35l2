@@ -37,7 +37,7 @@ Kevin Estévez Expósito
 
 [Despliege del libro en gh-pages](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2/)
 
-[Despliege del libro en Gitbook]()
+[Despliege del libro en Gitbook](https://ednagc.gitbooks.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kev/content/)
 
 [Despliegue del libro en Iaas]()
 
