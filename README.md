@@ -39,7 +39,7 @@ Kevin Estévez Expósito
 
 [Despliege del libro en Gitbook](https://alu0100821390.gitbooks.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kev/content/)
 
-[Despliegue del libro en Iaas](http://10.6.128.96:8082/)
+[Despliegue del libro en Iaas](http://10.6.128.96:8082/) - Kevin Estévez Expósito
 
 
 
