@@ -3,11 +3,11 @@ var express = require('express');
 
 // instanciar
 var app = express();
-app.set('port', (process.env.PORT || 8081));
+app.set('port', (process.env.PORT || 8082));
 
 
 // Ruteo
-app.use(express.static('./gh-pages/'));
+app.use(express.static('.'));
 
 app.get('/', function (req, res) {
     res.sendFile('index.html');
