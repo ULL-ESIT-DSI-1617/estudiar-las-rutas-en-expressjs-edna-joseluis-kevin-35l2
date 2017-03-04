@@ -1,58 +1,48 @@
 var gulp = require('gulp');
 var shell = require('gulp-shell');
-var ghPages = require('gulp-gh-pages');
-
-/* Tarea ej-1 -------------------------------------------------------
-
-gulp.task('ej-1', function() {
-  return gulp.src('').pipe(shell(['./src/ej1']));
-});
-*/
 
 
-// Tarea publicacion gitbook ---------------------------------------
+// Tarea ejemplo1 -------------------------------------------------------
 
-gulp.task('ej-1', function(){
-  return gulp.src('./src').pipe(shell(['node ej1.js']))
-  });
-
-
-/*
-
-// Tarea ej-2 -------------------------------------------------------
-
-gulp.task('ej-2', function() {
-  return gulp.src('').pipe(shell(['./src/ej2']));
+gulp.task('ejemplo1', function(){
+	return gulp.src('.').pipe(shell(['node ej1.js']))
 });
 
 
-// Tarea ej-3 -------------------------------------------------------
+// Tarea ejemplo2 -------------------------------------------------------
 
-gulp.task('ej-3', function() {
-  return gulp.src('').pipe(shell(['./src/ej3']));
+gulp.task('ejemplo2', function(){
+	return gulp.src('.').pipe(shell(['node ej2.js']))
 });
 
 
-// Tarea ej-4 -------------------------------------------------------
+// Tarea ejemplo3 -------------------------------------------------------
 
-gulp.task('ej-4', function() {
-  return gulp.src('').pipe(shell(['./src/ej4']));
+gulp.task('ejemplo3', function(){
+	return gulp.src('.').pipe(shell(['node ej3.js']))
 });
 
 
-// Tarea ej-5 -------------------------------------------------------
+// Tarea ejemplo4 -------------------------------------------------------
 
-gulp.task('ej-5', function() {
-  return gulp.src('').pipe(shell(['./src/ej5']));
+gulp.task('ejemplo4', function(){
+	return gulp.src('.').pipe(shell(['node ej4.js']))
 });
 
 
-// Tarea ej-6 -------------------------------------------------------
+// Tarea ejemplo5 -------------------------------------------------------
 
-gulp.task('ej-6', function() {
-  return gulp.src('').pipe(shell(['./src/ej6']));
+gulp.task('ejemplo5', function(){
+	return gulp.src('.').pipe(shell(['node ej5.js']))
 });
 
 
+// Tarea ejemplo6 -------------------------------------------------------
 
-*/
+gulp.task('ejemplo6', function(){
+	return gulp.src('.').pipe(shell(['node ej6.js']))
+});
+
+
+// Tarea por defecto ----------------------------------------------------
+gulp.task('default', ['ejemplo1', 'ejemplo2', 'ejemplo3', 'ejemplo4', 'ejemplo5', 'ejemplo6']);
