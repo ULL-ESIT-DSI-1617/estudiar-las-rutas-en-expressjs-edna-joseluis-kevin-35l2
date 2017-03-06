@@ -1,85 +1,57 @@
-# Práctica 3: Estudiar las Rutas en ExpressJS
+# Contenido del Libro: 
 
 
+### Como Enviar las Tareas
 
-## Requisitos
+- Lea las Instrucciones para los envíos de tareas en esta asignatura
 
-Estudie las rutas en ExpressJS siguiendo estos apuntes:
+### NodeJS
 
-* [Basic Routing](http://expressjs.com/en/starter/basic-routing.html)
-* [Routing Guide](http://expressjs.com/en/guide/routing.html)
-* [Using Middleware](http://expressjs.com/en/guide/using-middleware.html)
-* [Router API Documentation](http://expressjs.com/en/4x/api.html#router)
+- Instala node.JS
+    - Comprueba que npm funciona
 
-Elabore a partir de ellas un libro GitBook con sus notas e ilustre con ejemplos el uso de las distintas secciones.
-* El repo debe tener un directorio docs/ con los MarkDown del libro y un directorio src/ con los códigos fuentes de los ejemplos.
-* Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
-* Puede incorporar los apuntes elaborados en las prácticas anteriores a este
-* En el directorio src/ deberá de disponer de un gulpfile.js con tareas para la ejecución de los códigos fuentes de ejemplo
+#### Campus Virtual
 
-## Autores
+- Pon tu foto en tu perfil del campus virtual
 
-José Luis Doblado González  
-* [Github](https://github.com/alu0100767001)
-* [Pagina personal](https://alu0100767001.github.io/dsi-joseluis/)
+### Git
 
+- Instala Git.
+- Git for Windows
 
-Edna Liliana Galiano Camacho  
-* [Github](https://github.com/ednagc)
-* [Pagina personal](https://ednagc.github.io/edna-galiano/)
+### GitHub
 
-Kevin Estévez Expósito  
-* [Github](https://github.com/alu0100821390)
-* [Pagina personal](http://alu0100821390.github.io)
+- Abre una cuenta en GitHub si no la tienes
+- Si dispones de un Mac o Windows instala GitHub DeskTop
+- Lee el capítulo de GitHub y aprende a usar las gh-pages, los issues, los proyectos ...
+- Instala hub
 
+### Editores
 
-## Libro 
+- Instala Atom, el editor desarrollado por GitHub
 
-[Despliegue del libro en gh-pages](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kevin-35l2/)
+### c9
 
-[Despliegue del libro en Gitbook](https://alu0100821390.gitbooks.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kev/content/) - Kevin Estévez Expósito
+- Abre una cuenta en c9.io (cloud9). Vincula tu cuenta de GitHub con c9.
 
-[Despliege del libro en Gitbook](https://ednagc.gitbooks.io/estudiar-las-rutas-en-expressjs-edna-joseluis-kev/) - Edna Liliana Galiano Camacho
+### MarkDown y GitBook
 
-[Despliegue del libro en Iaas](http://10.6.128.96:8082/) - Kevin Estévez Expósito
+- Aprenda a utilizar MarkDown y GitBook escribiendo la documentación en formato MarkDown de como ha realizado esta primera práctica, incluyendo secciones:
+    - describiendo que es GitBook y como se utiliza,
+    - que son las gh-pages y como se utilizan,
+    - como se usa el módulo gh-pages para automatizar el despliegue en gh-pages
+    - como se despliega un libro en www.gitbook.com,
+    - Instale GitBook Desktop
 
-[Despliegue del libro en Iaas](http://10.6.129.247:8081/)- Edna Liliana Galiano Camacho
+### Pandoc
 
+- Un buen traductor de Markdown a HTML es pandoc. Instala pandoc y aprende a usarlo
 
-## Enlace descripción Práctica
+### Estudiar las Rutas en ExpressJS
 
-[Práctica 3](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicalearningrouting.html)
+- Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles.
 
-## Asignatura DSI ULL 
+### Tu Página en GitHub
 
-[Desarrollo de Sistemas Informáticos](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
-
-
-## GitBook Boilerplate
-
-### Installation
-
-```shell
-cd ~/code
-
-git clone https://github.com/enten/gitbook-boilerplate.git awesome-project
-
-cd awesome-project
-
-rm -fr .git
-
-vi package.json
-# edit repository.url and repository.wiki
-
-git remote add origin <url>
-
-npm run build
-# or
-# npm run generate-gitbook && npm run generate-wiki
-
-npm run deploy
-# or
-# npm run deploy-gitbook && npm run deploy-wiki
-```
-__Important__: Wiki must be created on Github
+- Prepara tus páginas de prácticas en github.io usando un esquema parecido al de [esta alumna](https://mdbgalvan.github.io/) de manera que tengas un histórico de prácticas de la asignatura. Tu página principal enlaza a tus prácticas en las asignaturas del grado.
 
