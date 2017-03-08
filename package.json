@@ -36,6 +36,13 @@
     "gitbook": "^2.1.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.15.1"
+=======
+    "express": "^4.15.0",
+    "gulp-cli": "^1.2.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-shell": "^0.6.1"
+>>>>>>> 296c6e92c332d7950c7b07a41c0952ba01adb9cc
   }
 }
